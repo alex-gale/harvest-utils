@@ -1,5 +1,5 @@
-import weekRemaining from "./week-remaining";
+import weekRemainingElement from "./week-remaining"
 
 export default [
-  weekRemaining
+  weekRemainingElement,
 ]
