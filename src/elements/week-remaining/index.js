@@ -1,4 +1,4 @@
-import { WEEK_NAV_NAME } from 'constants.js'
+import { WEEK_NAV_NAME, WEEKLY_WORK_HOURS } from 'constants.js'
 import { getWeekTotal } from 'utils/get-week-total.js'
 import { intToTime } from 'utils/time-utils.js'
 
@@ -16,17 +16,17 @@ const weekRemainingElement = {
     weekRemainingWrapper.append('Week Remaining')
   
     const weekTotal = getWeekTotal()
-    const weekRemaining = 35 - getWeekTotal()
+    const weekRemaining = WEEKLY_WORK_HOURS - getWeekTotal()
     const weekRemainingString = intToTime(weekRemaining)
   
-    const weekRemainingElement = document.createElement('div')
-    weekRemainingElement.classList.add('pds-text-sm')
-    if (weekRemaining < 0) weekRemainingElement.classList.add('pds-color-red')
+    const weekRemainingTextElement = document.createElement('div')
+    weekRemainingTextElement.classList.add('pds-text-sm')
+    if (weekRemaining < 0) weekRemainingTextElement.classList.add('pds-color-red')
   
   
-    weekRemainingElement.append(weekRemainingString)
+    weekRemainingTextElement.append(weekRemainingString)
   
-    weekRemainingWrapper.append(weekRemainingElement)
+    weekRemainingWrapper.append(weekRemainingTextElement)
   
     weekNavElement.append(weekRemainingWrapper)
   }

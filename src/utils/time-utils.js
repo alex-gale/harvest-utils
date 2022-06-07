@@ -15,5 +15,5 @@ const intToTime = (timeInt) => {
 
 export {
   timeToInt,
-  intToTime
+  intToTime,
 }

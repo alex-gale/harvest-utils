@@ -1,5 +1,13 @@
 import { ENTRY_LIST_NAME } from "constants.js"
 
+
+/*
+  this is bad
+*/
+
+
+
+
 // checks if harvest timer is active
 const checkRunning = () => {
   // get list of entries
