@@ -25,12 +25,9 @@ const weekRemainingElement = {
     const weekRemainingTextElement = document.createElement('div')
     weekRemainingTextElement.classList.add('pds-text-sm')
     if (weekRemaining < 0) weekRemainingTextElement.classList.add('pds-color-red')
-  
-  
+
     weekRemainingTextElement.append(weekRemainingString)
-  
     weekRemainingWrapper.append(weekRemainingTextElement)
-  
     weekNavElement.append(weekRemainingWrapper)
   },
   remove: () => {
