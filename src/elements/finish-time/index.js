@@ -24,6 +24,14 @@ const finishTimeElement = {
     finishTimeWrapper.append(finishTimeTextElement)
 
     weekNavElement.append(finishTimeWrapper)
+  },
+  remove: () => {
+    const weekNavElement = document.getElementById(WEEK_NAV_NAME)
+    const finishTimeWrapper = document.getElementById(ID)
+
+    if (!weekNavElement || !finishTimeWrapper) return
+
+    weekNavElement.removeChild(finishTimeWrapper)
   }
 }
 

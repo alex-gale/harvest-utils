@@ -7,13 +7,13 @@ const ENTRY_LIST_NAME = 'js-day-view-entry-list'
 // day summary container
 const DAY_SUMMARY_NAME = 'day-view-summary'
 
+const UPDATE_VALUES_MESSAGE = 'updateValues'
+
 const WEEKLY_HOURS = 'weeklyHours'
 const DAILY_HOURS = 'dailyHours'
 
-const UPDATE_VALUES_MESSAGE = 'updateValues'
-
-const DAILY_WORK_HOURS = 7.11666
-const WEEKLY_WORK_HOURS = 35
+const DEFAULT_WEEKLY_HOURS = 35
+const DEFAULT_DAILY_HOURS = 7
 
 const TIME_FORMAT = 'hh:mm a'
 
@@ -23,9 +23,9 @@ export {
   ENTRY_LIST_NAME,
   WEEKLY_HOURS,
   DAILY_HOURS,
-  UPDATE_VALUES_MESSAGE,
+  DEFAULT_WEEKLY_HOURS,
+  DEFAULT_DAILY_HOURS,
   DAY_SUMMARY_NAME,
-  DAILY_WORK_HOURS,
-  WEEKLY_WORK_HOURS,
+  UPDATE_VALUES_MESSAGE,
   TIME_FORMAT,
 }

@@ -1,7 +1,10 @@
-import { DAILY_HOURS, UPDATE_VALUES_MESSAGE, WEEKLY_HOURS } from "./constants"
-
-const DEFAULT_WEEKLY_HOURS = 35
-const DEFAULT_DAILY_HOURS = 7
+import {
+  DAILY_HOURS,
+  WEEKLY_HOURS,
+  UPDATE_VALUES_MESSAGE,
+  DEFAULT_WEEKLY_HOURS,
+  DEFAULT_DAILY_HOURS,
+} from "./constants"
 
 const inputIdMap = {
   [WEEKLY_HOURS]: 'weekly-hours-input',
