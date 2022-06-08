@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins&family=Roboto+Slab&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 350px;
+  background-color: offwhite;
+}
+
+.title-section {
+  text-align: center;
+  margin-bottom: -16px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  margin: 0px 8px;
+}
+
+.input-box p {
+  width: 100px;
+  font-size: 12px
+}
+
+.input-box input[type="text"] {
+  min-width: 50px;
+  padding: 4px;
+  height: 20px;
+  flex: 1;
+  border-color: #1d1e1c9e;
+  border-radius: 4px;
+  border-width: 1px;
+  outline: none;
+}
+
+.input-box input[type="text"]:focus {
+  border-color: #1d1e1c9e;
+  border-width: 2px;
+}
+
+.input-box button {
+  border: 0;
+  padding: 0;
+  height: 30px;
+  width: 50px;
+  margin-left: 8px;
+  background-color: #188433;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background-color: #11742a
+}

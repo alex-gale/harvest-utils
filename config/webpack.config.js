@@ -65,6 +65,7 @@ const config = (env, argv) => ({
   },
   entry: {
     index: PATHS.src + '/index.js',
+    popup: PATHS.src + '/popup.js',
   },
   devtool: argv.mode === 'production' ? false : 'source-map',
 })
